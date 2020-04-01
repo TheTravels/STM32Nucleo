@@ -119,7 +119,6 @@ int main(void)
 	LL_TIM_CC_EnableChannel(TIM3, LL_TIM_CHANNEL_CH2);
 	LL_TIM_CC_EnableChannel(TIM3, LL_TIM_CHANNEL_CH3);
 	LL_TIM_EnableCounter(TIM3);
-	ccm3310s_uart_hal_init();
 	udf_MTask_Init();
 	HAL_ADCEx_Calibration_Start(&hadc1);
 	//LL_ADC_EnableIT_EOS(ADC1);

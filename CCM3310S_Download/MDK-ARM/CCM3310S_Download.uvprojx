@@ -337,7 +337,7 @@
               <MiscControls>--gnu</MiscControls>
               <Define>USE_FULL_LL_DRIVER,STM32F103xE,USE_HAL_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>../Inc;                           ../Drivers/STM32F1xx_HAL_Driver/Inc;                           ../Drivers/CMSIS/Device/ST/STM32F1xx/Include;                           ../Drivers/CMSIS/Include;                           ../mylib;                          ../Middlewares/Third_Party/FreeRTOS/Source/include;                          ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;                          ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3;                   ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy</IncludePath>
+              <IncludePath>../Inc;                              ../Drivers/STM32F1xx_HAL_Driver/Inc;                              ../Drivers/CMSIS/Device/ST/STM32F1xx/Include;                              ../Drivers/CMSIS/Include;                              ../mylib;                             ../Middlewares/Third_Party/FreeRTOS/Source/include;                             ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;                             ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3;                      ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -630,6 +630,11 @@
               <FileName>SMx_pack.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\mylib\SMx\SMx_pack.c</FilePath>
+            </File>
+            <File>
+              <FileName>SMx_upload.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\mylib\SMx\SMx_upload.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1127,6 +1132,11 @@
               <FileName>MThread.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\mylib\MultiTask\MThread.c</FilePath>
+            </File>
+            <File>
+              <FileName>TaskUpload.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\mylib\MultiTask\Task\TaskUpload.c</FilePath>
             </File>
           </Files>
         </Group>

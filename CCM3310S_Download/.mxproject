@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=G:/STM32Cube/CCM3310S_Download/Inc
+HeaderPath=D:/GitHub/STM32Nucleo/CCM3310S_Download/Inc
 HeaderFiles=gpio.h;adc.h;spi.h;usart.h;stm32f1xx_it.h;stm32_assert.h;stm32f1xx_hal_conf.h;main.h;FreeRTOSConfig.h;tim.h;dma.h;
-SourcePath=G:/STM32Cube/CCM3310S_Download/Src
+SourcePath=D:/GitHub/STM32Nucleo/CCM3310S_Download/Src
 SourceFiles=gpio.c;adc.c;spi.c;usart.c;stm32f1xx_it.c;stm32f1xx_hal_msp.c;main.c;freertos.c;tim.c;dma.c;
 
 [PreviousLibFiles]
