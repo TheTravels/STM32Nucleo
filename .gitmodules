@@ -1,0 +1,3 @@
+[submodule "CCM3310S_Download/mylib"]
+	path = CCM3310S_Download/mylib
+	url = git@gitee.com:TheTravels/STM32_Mylib.git
