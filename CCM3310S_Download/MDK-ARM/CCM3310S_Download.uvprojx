@@ -1156,6 +1156,16 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>Misc</GroupName>
+          <Files>
+            <File>
+              <FileName>debug.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\mylib\misc\debug.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>

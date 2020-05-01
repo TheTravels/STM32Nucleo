@@ -31,7 +31,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "CMM3310S/ccm3310s_uart_hal.h"
-#include "MultiTask/timTask.h"
+#include "MultiTask/Task.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/

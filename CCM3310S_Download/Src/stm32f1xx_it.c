@@ -26,7 +26,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "Periphs/uart.h"
-#include "MultiTask/timTask.h"
+#include "MultiTask/Task.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
