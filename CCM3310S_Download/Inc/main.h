@@ -85,6 +85,8 @@ void Error_Handler(void);
 #define RESET_3310_GPIO_Port GPIOE
 #define RESET_MCU_Pin LL_GPIO_PIN_14
 #define RESET_MCU_GPIO_Port GPIOE
+#define SW_Work_Pin LL_GPIO_PIN_11
+#define SW_Work_GPIO_Port GPIOB
 #define SRAM_CE_Pin LL_GPIO_PIN_12
 #define SRAM_CE_GPIO_Port GPIOB
 #define MAX485_Pin LL_GPIO_PIN_9
